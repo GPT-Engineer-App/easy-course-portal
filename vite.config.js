@@ -5,6 +5,7 @@ import { resolve } from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/<REPO_NAME>/', // Replace <REPO_NAME> with your repository name
   server: {
     host: "::",
     port: "8080",
