@@ -6,7 +6,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router basename="/<REPO_NAME>">
+    <Router basename="/camp2024.github.io">
       <App />
     </Router>
   </React.StrictMode>,
